@@ -8,13 +8,9 @@ public class demoController {
 
 	@GetMapping("/")
 	public String index() {
-		return "index";
-	}
-	
-	@GetMapping("/inicio")
-	public String inicio() {
 		return "inicio";
 	}
+
 	
 	@GetMapping("/contact")
 	public String contact() {
